@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <!-- thẻ div ngoài cùng là relative  -->
+        <div class="sp-slideshow">
+            <!-- tất cả những input đều là absolute -->
+            <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+            <!-- tất cả những label đều là những absolute -->
+            <label for="button-1" class="button-label-1"></label>
+            <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+            <!-- phải có cái label này thì mới có màu khi bấm nút vào -->
+            <label for="button-2" class="button-label-2"></label>
+            <!-- thằng này là relative  -->
+            <div class="sp-content">
+                <ul class="sp-slider">
+                    <li><img src="image/image1.png" alt="image01" /></li>
+                    <li><img src="image/image2.png" alt="image02" /></li>
+                </ul>
+            </div><!-- sp-content -->
+
+        </div><!-- sp-slideshow -->
+    </body>
+</html>
